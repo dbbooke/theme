@@ -1,0 +1,390 @@
+	<div class="clearfix"> </div>
+			<!---pop-up-box---->   
+					
+					<!---//pop-up-box---->
+				<div id="small-dialog" class="mfp-hide">
+				<div class="search-top">
+						<div class="login">
+							<form action="#" method="post">
+								<input type="submit" value="">
+								<input type="text" name="search" value="Type something..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">		
+							
+							</form>
+						</div>
+						<p>	Shopping</p>
+					</div>				
+				</div>
+				 <script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+				</script>			
+	<!---->		
+		</div>
+	</div>
+</div>
+<!--banner-->
+<div class="banner">
+	<div class="matter-banner">
+	 	<div class="slider">
+	    	<div class="callbacks_container">
+	      		<ul class="rslides" id="slider">
+	        		<li>
+	          			<%= image_tag('1.jpg', class: 'background-image', alt: 'Background') %>
+						<div class="tes animated wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+							<h2>MEN & WOMEN</h2>
+							<h3>Trousers & Chinos</h3>
+							<h4>UPTO 50%</h4>
+							<p>OFFER</p>
+						</div>
+	       			 </li>
+			 		 <li>
+	          			<%= image_tag('3.jpg', class: 'background-image', alt: 'Background') %>
+						<div class="tes animated wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+							<h2>MEN & WOMEN</h2>
+							<h3>Trousers & Chinos</h3>
+							<h4>UPTO 50%</h4>
+							<p>OFFER</p>
+						</div>					
+	       			 </li>
+					 <li>
+	          			<%= image_tag('2.jpg', class: 'background-image', alt: 'Background') %>
+						<div class="tes animated wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+							<h2>MEN & WOMEN</h2>
+							<h3>Trousers & Chinos</h3>
+							<h4>UPTO 50%</h4>
+							<p>OFFER</p>
+						</div>
+	        		</li>	
+	      		</ul>
+	 	 	</div>
+		</div>
+	</div>
+	<div class="clearfix"> </div>
+</div>
+<!--//banner-->
+<!--content-->
+<div class="content">
+	<div class="container">
+		<div class="content-top">
+			<div class="content-top1">
+				<div class="col-md-3 col-md2 animated wow fadeInLeft" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="single.html">
+							<%= image_tag('pi5.png', class: 'img-responsive', alt: 'Background') %>
+						</a>
+						<h3><a href="single.html">Palazzo</a></h3>
+						<div class="price">
+								<h5 class="item_price">$450</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>	
+				<div class="col-md-6 animated wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
+					<div class="col-md3">
+						<div class="up-t">
+							<h3>Flat 50% Offer</h3>
+						</div>
+					</div>
+				</div>
+			<div class="col-md-3 col-md2 animated wow fadeInRight" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="single.html">
+							<%= image_tag('pi4.png', class: 'img-responsive', alt: 'Background') %>
+						</a>
+						<h3><a href="single.html">Pant</a></h3>
+						<div class="price">
+								<h5 class="item_price">$300</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>	
+			<div class="clearfix"> </div>
+			</div>	
+			<div class="content-top1">
+				<div class="col-md-3 col-md2 animated wow fadeInLeft" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="single.html">
+							<%= image_tag('pi3.png', class: 'img-responsive', alt: 'Background') %>
+						</a>
+						<h3><a href="single.html">Palazoo</a></h3>
+						<div class="price">
+								<h5 class="item_price">$300</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>	
+			<div class="col-md-3 col-md2 animated wow fadeInLeft" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="single.html">
+							<%= image_tag('pi2.png', class: 'img-responsive', alt: 'Background') %>
+						</a>
+						<h3><a href="single.html">Trouser</a></h3>
+						<div class="price">
+								<h5 class="item_price">$300</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>	
+			<div class="col-md-3 col-md2 animated wow fadeInRight" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="single.html">
+							<%= image_tag('pi6.png', class: 'img-responsive', alt: 'Background') %>
+						</a>
+						<h3><a href="single.html">Trouser</a></h3>
+						<div class="price">
+								<h5 class="item_price">$300</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>	
+			<div class="col-md-3 col-md2 cmn animated wow fadeInRight" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="single.html">
+							<%= image_tag('pi8.png', class: 'img-responsive', alt: 'Background') %>
+						</a>
+						<h3><a href="single.html">Palazoo</a></h3>
+						<div class="price">
+								<h5 class="item_price">$300</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>	
+			<div class="clearfix"> </div>
+			</div>			
+		</div>
+	</div>
+</div>
+<!--//content-->
+	<div class="con-tp">
+		<div class="container">
+			<div class="col-md-4 con-tp-lft animated wow fadeInLeft" data-wow-delay=".5s">
+				<a href="products.html">
+					<div class="content-grid-effect slow-zoom vertical">
+						<div class="img-box"><%= image_tag('6.jpg', class: 'img-responsive zoom-img', alt: 'Background') %></div>
+						<div class="info-box">
+							<div class="info-content simpleCart_shelfItem">
+										<h4>30%offer</h4>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 con-tp-lft animated wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
+				<a href="products.html">			
+					<div class="content-grid-effect slow-zoom vertical">
+						<div class="img-box"><%= image_tag('10.jpg', class: 'img-responsive zoom-img', alt: 'Background') %></div>
+							<div class="info-box">
+								<div class="info-content simpleCart_shelfItem">
+										<h4>45%offer</h4>	
+								</div>
+							</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 con-tp-lft animated wow fadeInRight" data-wow-delay=".5s">
+				<a href="products.html">
+					<div class="content-grid-effect slow-zoom vertical">
+						<div class="img-box"><%= image_tag('9.jpg', class: 'img-responsive zoom-img', alt: 'Background') %></div>
+							<div class="info-box">
+								<div class="info-content simpleCart_shelfItem">
+										<h4>50%offer</h4>	
+								</div>
+							</div>
+					</div>
+				</a>
+			</div>
+			<div class="clearfix"></div>
+		<div class="col-md-4 con-tp-lft animated wow fadeInLeft" data-wow-delay=".5s">
+			<a href="products.html">
+				<div class="content-grid-effect slow-zoom vertical">
+					<div class="img-box"><%= image_tag('12.jpg', class: 'img-responsive zoom-img', alt: 'Background') %></div>
+						<div class="info-box">
+							<div class="info-content simpleCart_shelfItem">
+									<h4>25%offer</h4>	
+							</div>
+						</div>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-4 con-tp-lft animated wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+			<a href="products.html">
+				<div class="content-grid-effect slow-zoom vertical">
+					<div class="img-box"><%= image_tag('13.jpg', class: 'img-responsive zoom-img', alt: 'Background') %></div>
+						<div class="info-box">
+							<div class="info-content simpleCart_shelfItem">
+									<h4>50%offer</h4>	
+							</div>
+						</div>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-4 con-tp-lft animated wow fadeInRight" data-wow-delay=".5s">
+			<a href="products.html">
+				<div class="content-grid-effect slow-zoom vertical">
+					<div class="img-box"><%= image_tag('14.jpg', class: 'img-responsive zoom-img', alt: 'Background') %></div>
+						<div class="info-box">
+							<div class="info-content simpleCart_shelfItem">
+									<h4>35%offer</h4>	
+							</div>
+						</div>
+				</div>
+			</a>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="c-btm">
+		<div class="content-top1">
+			<div class="container">
+				<div class="col-md-3 col-md2 animated wow fadeInLeft" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="single.html">
+							<%= image_tag('pi9.png', class: 'background-image', alt: 'Background') %>
+						</a>
+						<h3><a href="single.html">Trousers</a></h3>
+						<div class="price">
+								<h5 class="item_price">$300</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+						
+					</div>
+				</div>	
+			<div class="col-md-3 col-md2 animated wow fadeInLeft" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="single.html">
+							<%= image_tag('pi10.png', class: 'img-responsive zoom-img', alt: 'Background') %>
+						</a>
+						<h3><a href="single.html">Formal</a></h3>
+						<div class="price">
+								<h5 class="item_price">$450</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+						
+					</div>
+				</div>	
+			<div class="col-md-3 col-md2 animated wow fadeInRight" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="single.html">
+							<%= image_tag('pi11.png', class: 'img-responsive zoom-img', alt: 'Background') %>
+						</a>
+						<h3><a href="single.html">Trousers</a></h3>
+						<div class="price">
+								<h5 class="item_price">$350</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+						
+					</div>
+				</div>	
+			<div class="col-md-3 col-md2 animated wow fadeInRight" data-wow-delay=".5s">
+					<div class="col-md1 simpleCart_shelfItem">
+						<a href="single.html">
+							<%= image_tag('pi12.png', class: 'img-responsive zoom-img', alt: 'Background') %>
+						</a>
+						<h3><a href="single.html">Formal</a></h3>
+						<div class="price">
+								<h5 class="item_price">$400</h5>
+								<a href="#" class="item_add">Add To Cart</a>
+								<div class="clearfix"> </div>
+						</div>
+						
+					</div>
+				</div>	
+			<div class="clearfix"> </div>
+			</div>	
+		</div>
+	</div>
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-top">
+			<div class="col-md-6 top-footer animated wow fadeInLeft" data-wow-delay=".5s">
+				<h3>Follow Us On</h3>
+				<div class="social-icons">
+					<ul class="social">
+						<li><a href="#"><i></i></a> </li>
+						<li><a href="#"><i class="facebook"></i></a></li>	
+						<li><a href="#"><i class="google"></i> </a></li>
+						<li><a href="#"><i class="linked"></i> </a></li>						
+					</ul>
+						<div class="clearfix"></div>
+				 </div>
+			</div>
+			<div class="col-md-6 top-footer1 animated wow fadeInRight" data-wow-delay=".5s">
+				<h3>Newsletter</h3>
+					<form action="#" method="post">
+						<input type="text" name="email" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+						<input type="submit" value="SUBSCRIBE">
+					</form>
+			</div>
+			<div class="clearfix"> </div>	
+		</div>	
+	</div>
+		<div class="footer-bottom">
+		<div class="container">
+				<div class="col-md-3 footer-bottom-cate animated wow fadeInLeft" data-wow-delay=".5s">
+					<h6>Categories</h6>
+					<ul>
+						<li><a href="products.html">Curabitur sapien</a></li>
+						<li><a href="single.html">Dignissim purus</a></li>
+						<li><a href="men.html">Tempus pretium</a></li>
+						<li><a href="products.html">Dignissim neque</a></li>
+						<li><a href="single.html">Ornared id aliquet</a></li>
+						
+					</ul>
+				</div>
+				<div class="col-md-3 footer-bottom-cate animated wow fadeInLeft" data-wow-delay=".5s">
+					<h6>Feature Projects</h6>
+					<ul>
+						<li><a href="products.html">Dignissim purus</a></li>
+						<li><a href="men.html">Curabitur sapien</a></li>
+						<li><a href="single.html">Tempus pretium</a></li>
+						<li><a href="men.html">Dignissim neque</a></li>
+						<li><a href="products.html">Ornared id aliquet</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-bottom-cate animated wow fadeInRight" data-wow-delay=".5s">
+					<h6>Top Brands</h6>
+					<ul>
+						<li><a href="products.html">Tempus pretium</a></li>
+						<li><a href="single.html">Curabitur sapien</a></li>
+						<li><a href="men.html">Dignissim purus</a></li>
+						<li><a href="single.html">Dignissim neque</a></li>
+						<li><a href="men.html">Ornared id aliquet</a></li>
+						
+						
+					</ul>
+				</div>
+				<div class="col-md-3 footer-bottom-cate cate-bottom animated wow fadeInRight" data-wow-delay=".5s">
+					<h6>Our Address</h6>
+					<ul>
+						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Address : 12th Avenue, 5th block, <span>Sydney.</span></li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>Email : <a href="mailto:info@example.com">info@example.com</a></li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>Phone : +1234 567 567</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+				<p class="footer-class animated wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"> © 2016 Youth Fashion . All Rights Reserved | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+			</div>
+	</div>
+</div>

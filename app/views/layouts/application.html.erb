@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Themeshop</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+   <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<!-- start menu -->
+
+   <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: false,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+  <!-- animation-effect -->
+<script>
+ new WOW().init();
+</script>
+  </head>
+
+  <body>
+
+    <div class="main content">
+
+  	<%= render 'shared/header' %>
+    
+    <%= yield %>
+
+    <%= render 'shared/footer' %>
+
+  </div>
+  </body>
+</html>
