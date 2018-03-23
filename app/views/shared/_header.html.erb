@@ -2,13 +2,14 @@
 	<div class="header-top">
 		<div class="container">
 				<div class="col-sm-4 logo animated wow fadeInLeft" data-wow-delay=".5s">
-					<h1><a href="index.html">Youth <span>Fashion</span></a></h1>	
+					<h1><a href="#" >Youth <span>Fashion</span></a></h1>	
 				</div>
 			<div class="col-sm-4 world animated wow fadeInRight" data-wow-delay=".5s">
 					<div class="cart box_1">
 						<a href="checkout.html">
 						<h3> <div class="total">
-							<span class="simpleCart_total"></span></div>
+							<span class="simpleCart_total" ></span></div>
+							
 							<%= image_tag('cart.png', class: 'background-image', alt: 'Background') %></h3>
 						</a>
 						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
@@ -50,11 +51,9 @@
 							<li>
 							<%= link_to 'Store', shop_path %>			
 							<li>
-								<%= link_to root_path do %> 
-								<i class="fa fa-paper-plane"></i> Contact
-								<% end %>
+								<%= link_to 'Sign-in', signin_path  %> 
 							</li>
-							<li><%= link_to 'sign-in', root_path %></li>
+							<li><%= link_to 'Contact', contact_path %></li>
 						</ul>
 					 </div><!-- /.navbar-collapse -->
 				  
