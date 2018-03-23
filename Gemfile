@@ -54,6 +54,7 @@ gem 'jquery-rails'
 gem "paperclip", "~> 6.0.0"
 gem "font-awesome-rails"
 gem 'activeadmin'
+
 gem 'devise'
 
 ruby "2.4.1"
