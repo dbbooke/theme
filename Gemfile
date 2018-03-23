@@ -56,3 +56,4 @@ gem "font-awesome-rails"
 gem 'activeadmin'
 gem 'devise'
 
+ruby "2.4.1"
